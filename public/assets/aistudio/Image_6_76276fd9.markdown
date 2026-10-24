@@ -1,0 +1,199 @@
+---
+name: Blush Editorial
+colors:
+  surface: '#fff8f8'
+  surface-dim: '#ffcdda'
+  surface-bright: '#fff8f8'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#fff0f2'
+  surface-container: '#ffe8ed'
+  surface-container-high: '#ffe1e7'
+  surface-container-highest: '#ffd9e2'
+  on-surface: '#350d1c'
+  on-surface-variant: '#524346'
+  inverse-surface: '#4e2231'
+  inverse-on-surface: '#ffecef'
+  outline: '#847376'
+  outline-variant: '#d6c1c5'
+  surface-tint: '#8a4b5c'
+  primary: '#8a4b5c'
+  on-primary: '#ffffff'
+  primary-container: '#f4a6b8'
+  on-primary-container: '#733949'
+  inverse-primary: '#ffb1c3'
+  secondary: '#8c4a5d'
+  on-secondary: '#ffffff'
+  secondary-container: '#fdaabf'
+  on-secondary-container: '#793b4e'
+  tertiary: '#80515d'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#e7acba'
+  on-tertiary-container: '#6a3e4a'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffd9e0'
+  primary-fixed-dim: '#ffb1c3'
+  on-primary-fixed: '#38091a'
+  on-primary-fixed-variant: '#6e3444'
+  secondary-fixed: '#ffd9e1'
+  secondary-fixed-dim: '#ffb1c5'
+  on-secondary-fixed: '#3a071b'
+  on-secondary-fixed-variant: '#703346'
+  tertiary-fixed: '#ffd9e1'
+  tertiary-fixed-dim: '#f2b7c5'
+  on-tertiary-fixed: '#32101b'
+  on-tertiary-fixed-variant: '#653a46'
+  background: '#fff8f8'
+  on-background: '#350d1c'
+  surface-variant: '#ffd9e2'
+typography:
+  display-lg:
+    fontFamily: Playfair Display
+    fontSize: 56px
+    fontWeight: '600'
+    lineHeight: 68px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 38px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.01em
+  headline-xl:
+    fontFamily: Playfair Display
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 52px
+    letterSpacing: -0.015em
+  headline-xl-mobile:
+    fontFamily: Playfair Display
+    fontSize: 30px
+    fontWeight: '600'
+    lineHeight: 40px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 32px
+    fontWeight: '500'
+    lineHeight: 42px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 24px
+    fontWeight: '500'
+    lineHeight: 32px
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 17px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.04em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 3rem
+  margin-mobile: 1.25rem
+  space-xs: 0.375rem
+  space-sm: 0.75rem
+  space-md: 1.25rem
+  space-lg: 2rem
+  space-xl: 3.5rem
+---
+
+## Brand & Style
+
+This design system embodies an editorial, feminine, and sophisticated design narrative tailored for high-end graphic design and digital marketing portfolios. The visual tone balances classic editorial prestige with contemporary warmth, welcoming clients with poise, creative flair, and clarity. 
+
+The aesthetic is rooted in warm editorial minimalism combined with soft tactile elegance. It avoids cold clinical layouts in favor of inviting, spacious compositions with generous breathing room, high-contrast serif headlines, tactile pill-shaped elements, and ultra-soft rose-tinted illumination. Every touchpoint should evoke a sense of crafted luxury, intentional care, and delicate structure.
+
+## Colors
+
+The palette is built around soft rose hues grounded by deep, dignified mauve tones to maintain high legibility and contrast.
+
+- **Background Canvas:** Light cream white (`#FFF8F9`) creates a soft, warm environment that avoids the stark sterility of pure digital white.
+- **Surface & Containers:** Crisp white (`#FFFFFF`) layered above the cream ground, framed with delicate blush borders (`#F3CCD3` and `#FADADD`).
+- **Primary & Secondary Accents:** Rose pink (`#F4A6B8`) serves as the hero focal hue, supported by dusty rose (`#D98BA0`) for interactive states, focused accents, and elevated borders.
+- **Tertiary & Highlights:** Soft rose sparkle (`#EBB0BE`) and faint blush glow (`#FDECEF`) add subtle dimension and delicate hover feedback.
+- **Typography & Content:** Headlines utilize deep mauve (`#6B3A4A`) for striking editorial contrast, while body copy flows in soft warm muted mauve (`#8C5E6D`). Muted labels and secondary metadata use subtle dusty mauve (`#A57B8A`).
+
+## Typography
+
+Typography establishes an editorial atmosphere through intentional typographic pairing:
+
+- **Headlines (Playfair Display):** High-contrast transitional serifs provide grace, dramatic cadence, and editorial credibility. Italic variations are encouraged for pull quotes, accent keywords, and case study subtitles.
+- **Body & Controls (Plus Jakarta Sans):** Modern geometric sans with soft, friendly terminals that ensure effortless readability across editorial essays, portfolio briefs, and interactive components.
+- **Scale Continuity:** Large display and headline sizes transition to designated `-mobile` scales beneath tablet breakpoints to prevent awkward wrap breaks while maintaining striking hierarchy.
+
+## Layout & Spacing
+
+The layout structure relies on a fluid 12-column grid system paired with dynamic masonry arrangements for design galleries and marketing artifacts.
+
+- **Desktop (1024px+):** 12 columns with a 1.5rem gutter and 3rem outer margins. Content containers max out at 1280px to retain intimate editorial focus.
+- **Tablet (768px - 1023px):** 8 columns with a 1.25rem gutter and 2rem outer margins.
+- **Mobile (Below 768px):** 4 columns with a 1rem gutter and 1.25rem outer margins. Multi-column showcase cards compress into a stacked single-column flow with offset visual padding.
+- **Rhythm:** Vertical spacing favors airy proportions (`space-lg` to `space-xl`) between narrative portfolio sections, preserving the open feel of printed art monographs.
+
+## Elevation & Depth
+
+Visual depth avoids heavy, neutral drop shadows in favor of luminous, tinted atmospheric diffusion:
+
+- **Surface Tiers:** Background levels sit on `#FFF8F9`. Primary content cards and editorial sheets lift slightly via `#FFFFFF` surfaces bounded by crisp 1px borders in `#FADADD`.
+- **Rose Diffusion Shadows:** Floating elements and interactive cards implement an ultra-soft rose shadow (`0 8px 30px -4px rgba(217, 139, 160, 0.12)`).
+- **Hover Elevation:** On hover, elevated containers transition to `0 16px 36px -6px rgba(217, 139, 160, 0.20)`, accompanied by a subtle 1px border shift to `#F3CCD3`.
+- **Frosted Overlays:** Modal and navigation backdrops apply a frosted cream blur (`rgba(255, 248, 249, 0.85)` with `backdrop-filter: blur(12px)`).
+
+## Shapes
+
+The design system embraces soft, pill-shaped geometry that complements the curved nuances of Plus Jakarta Sans:
+
+- **Buttons & Chips:** Full pill curves (`9999px` or level `3` standard token `1rem` on compact elements) providing approachable, touch-friendly affordances.
+- **Content Cards & Containers:** Generously sculpted with `1rem` (`16px`) to `1.5rem` (`24px`) radii, creating smooth visual envelopes for imagery and text.
+- **Images & Case Study Previews:** Softly rounded with `1rem` outer corners to nestle organically into layout columns.
+
+## Components
+
+- **Buttons:**
+  - *Primary:* Filled with `#F4A6B8`, text in `#6B3A4A` (bold), full pill radius, soft rose glow shadow. Transitions on hover to `#D98BA0` with crisp white text.
+  - *Secondary / Ghost:* Outlined with a 1.5px `#F3CCD3` stroke, cream/white fill, text in `#6B3A4A`. Shifts to `#FDECEF` fill on hover.
+- **Chips & Badges:**
+  - Pill-shaped tags with `0.25rem` vertical and `0.75rem` horizontal padding. Faint `#FDECEF` background with `#8C5E6D` text in `label-sm` tracking.
+- **Cards & Case Study Tiles:**
+  - White surface, `1px solid #FADADD`, rounded at `1.25rem`. Houses high-res mockups with seamless padding (`space-md`). Hover triggers a delicate 2px vertical lift and rose glow elevation.
+- **Input Fields:**
+  - Pill or soft-rounded (`1rem`) white inputs with `1px solid #FADADD` borders. Deep mauve placeholder text. On focus, transitions to a 1.5px `#D98BA0` border with a subtle 3px outer halo in `rgba(244, 166, 184, 0.25)`.
+- **Checkboxes & Radios:**
+  - Rounded-sm for checkboxes, fully circular for radios. Borders in `#D98BA0`, filling with `#F4A6B8` when selected, paired with a white checkmark or inner dot.
+- **Lists & Editorial Accents:**
+  - Custom list bullets utilize miniature rose diamond accents or subtle sparkle glyphs (`✦`) styled in `#D98BA0`.
+- **Interactive Badges:**
+  - Floating pill markers for project tags (e.g., "Brand Identity", "Marketing Strategy") with soft semi-translucent blush backings.
